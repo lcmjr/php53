@@ -1,0 +1,21 @@
+{
+  "name": "lcmjr/php53-limitations",
+  "description": "A package to help with some limitations of the php 5.3 in legacy system",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/lcmjr/php53-limitations/",
+  "authors": [
+    {
+      "name": "Luiz Carlos Manhani Junior",
+      "email": "luiz.manhani@gmail.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Php53Limitations\\": "lib/"
+    }
+  }
+}
